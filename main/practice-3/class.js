@@ -19,6 +19,7 @@ module.exports = class Class{
 	// }
 	appendMember(stu){
 		this.member.push(stu);
+
 	}
 	hasStudent(stu){
 		var temp = false;

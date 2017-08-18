@@ -20,10 +20,11 @@ module.exports = class Teacher extends Person{
 	}
 	isTeaching(stu){
 		var temp = false;
-		for(var i in clazzes){
-			if(clazzes[i].hasStudent(stu)) temp = true;
+		for(var i in this.clazzes){
+			if(this.clazzes[i].hasStudent(stu)) temp = true;
 		}
 		return temp;
 	}
+	
 }
 
